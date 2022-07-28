@@ -27,12 +27,12 @@ defaults: {
 		metrics:                   8081
 		observables_app_port:      5000
 		egress_elasticsearch_port: 443
-		opa_grpc_port:	           9191
+		opa_grpc_port:             9191
 	}
 
 	edge: {
 		key:        "edge-plus"
-		enable_tls: true
+		enable_tls: false
 		oidc: {
 			endpoint_host: ""
 			endpoint_port: 0
