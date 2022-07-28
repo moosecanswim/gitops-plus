@@ -560,7 +560,7 @@ import (
 #envoy_ext_authz: ext_authz.#ExtAuthz | *{
 	grpc_service: {
 		envoy_grpc: {
-			cluster_name: "ext_authz" // Needs to match the name of your cluster. Since its a grpc connection, you must create an http/2 cluster
+			cluster_name: "opa" // Needs to match the name of your cluster. Since its a grpc connection, you must create an http/2 cluster
 		}
 	}
 	failure_mode_allow: false // set to true to allow requests to pass in the case of a authz network failure
