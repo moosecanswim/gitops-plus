@@ -22,9 +22,9 @@ import (
 	// import path:
 	// alias_name "<cue_module>/{path}:<name_of_directory_package>"
 
-	observables "greymatter.io.plus/services/observables:services"
-	edge "greymatter.io.plus/services/edge:services"
-	opa "greymatter.io.plus/services/opa:services"
+	observables "greymatter.io.plus/greymatter/observables:greymatter"
+	edge "greymatter.io.plus/greymatter/edge:greymatter"
+	opa "greymatter.io.plus/greymatter/opa:greymatter"
 )
 
 configs:

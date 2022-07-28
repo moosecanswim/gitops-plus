@@ -4,7 +4,7 @@
 // greymatter.io edge that is deployed via enterprise-level configuration in
 // the gitops-core git repository.
 
-package services
+package greymatter
 
 let EgressToRedisName = "\(defaults.edge.key)_egress_to_redis"
 
