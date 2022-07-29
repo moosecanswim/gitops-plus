@@ -1,4 +1,4 @@
-package services
+package greymatter
 
 import (
 	greymatter "greymatter.io/api"
